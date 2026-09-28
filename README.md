@@ -8,4 +8,4 @@ This project started as a binary `.4DB` example database originally distributed 
 
 - **Blog post:** [New object: an easy way to initialize an object](https://blog.4d.com/ob-new-an-easy-way-to-initialize-an-object/)
 
-- **Original download:** [HDI_OB_New](https://downloads.4d.com/Demos/4D_v16_R3/HDI_OB_New.zip)
+- **Original download:** https://downloads.4d.com/Demos/4D_v16_R3/HDI_OB_New.zip
