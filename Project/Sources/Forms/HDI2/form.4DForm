@@ -1,0 +1,534 @@
+{
+	"destination": "detailScreen",
+	"windowMinWidth": 720,
+	"windowMinHeight": 540,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "US Letter",
+		"paperWidth": "612pt",
+		"paperHeight": "792pt"
+	},
+	"pages": [
+		{
+			"objects": {
+				"Tab Control": {
+					"type": "tab",
+					"top": 20,
+					"left": 20,
+					"width": 882,
+					"height": 724,
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"dataSource": "Tab Control",
+					"dataSourceTypeHint": "arrayText",
+					"labels": [
+						"Info",
+						"Example 1",
+						"Example 2",
+						"Example 3"
+					],
+					"action": "gotoPage",
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Variable": {
+					"type": "input",
+					"top": 62,
+					"left": 48,
+					"width": 835,
+					"height": 648,
+					"dataSource": "vartitle",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"styledText": true,
+					"allowFontColorPicker": true,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				}
+			}
+		},
+		{
+			"objects": {
+				"Example1_Previous version_result": {
+					"type": "input",
+					"top": 492,
+					"left": 40,
+					"width": 376,
+					"height": 232,
+					"dataSource": "Example1Result_WithoutNewObject",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"V16R3 version": {
+					"type": "input",
+					"top": 492,
+					"left": 484,
+					"width": 396,
+					"height": 232,
+					"dataSource": "Example1Result_WithNewObject",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"top": 464,
+					"left": 42,
+					"width": 205,
+					"height": 15,
+					"stroke": "#FF0000",
+					"fontWeight": "bold",
+					"text": "Result of code without New object"
+				},
+				"Text1": {
+					"type": "text",
+					"top": 464,
+					"left": 487,
+					"width": 202,
+					"height": 15,
+					"stroke": "#008000",
+					"fontWeight": "bold",
+					"text": "Result of code with New object"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 503,
+					"left": 22,
+					"width": 34,
+					"height": 15
+				},
+				"Example1_Previous version": {
+					"type": "input",
+					"top": 167,
+					"left": 40,
+					"width": 376,
+					"height": 232,
+					"dataSource": "Example1Code_WithoutNewObject",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"styledText": true,
+					"allowFontColorPicker": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Example1_NewObject Version": {
+					"type": "input",
+					"top": 168,
+					"left": 484,
+					"width": 396,
+					"height": 232,
+					"dataSource": "Example1Code_WithNewObject",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"styledText": true,
+					"allowFontColorPicker": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text3": {
+					"type": "text",
+					"top": 142,
+					"left": 42,
+					"width": 170,
+					"height": 15,
+					"stroke": "#FF0000",
+					"fontWeight": "bold",
+					"text": "Code without New object"
+				},
+				"Text4": {
+					"type": "text",
+					"top": 142,
+					"left": 487,
+					"width": 139,
+					"height": 15,
+					"stroke": "#008000",
+					"fontWeight": "bold",
+					"text": "Code with New object"
+				},
+				"Text5": {
+					"type": "text",
+					"top": 67,
+					"left": 46,
+					"width": 803,
+					"height": 64,
+					"fontFamily": "Segoe UI",
+					"fontSize": 24,
+					"text": "These two codes initialize an empty object"
+				},
+				"Text6": {
+					"type": "text",
+					"top": 414,
+					"left": 42,
+					"width": 811,
+					"height": 32,
+					"fontFamily": "Segoe UI",
+					"fontSize": 24,
+					"text": "As you can see below, these two codes provide the same result"
+				},
+				"Text8": {
+					"type": "text",
+					"top": 581,
+					"left": 436,
+					"width": 32,
+					"height": 54,
+					"stroke": "#00FF00",
+					"fontFamily": "Segoe UI",
+					"fontSize": 40,
+					"fontWeight": "bold",
+					"text": "="
+				}
+			}
+		},
+		{
+			"objects": {
+				"Previous version2": {
+					"type": "input",
+					"top": 492,
+					"left": 40,
+					"width": 376,
+					"height": 232,
+					"dataSource": "Example2Result_WithoutNewObject",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"V16R3 version1": {
+					"type": "input",
+					"top": 492,
+					"left": 484,
+					"width": 396,
+					"height": 232,
+					"dataSource": "Example2Result_WithNewObject",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text7": {
+					"type": "text",
+					"top": 464,
+					"left": 42,
+					"width": 201,
+					"height": 15,
+					"stroke": "#FF0000",
+					"fontWeight": "bold",
+					"text": "Result of code without New object"
+				},
+				"Text9": {
+					"type": "text",
+					"top": 464,
+					"left": 487,
+					"width": 202,
+					"height": 15,
+					"stroke": "#008000",
+					"fontWeight": "bold",
+					"text": "Result of code with New object"
+				},
+				"Text10": {
+					"type": "text",
+					"top": 503,
+					"left": 22,
+					"width": 34,
+					"height": 15
+				},
+				"Previous version3": {
+					"type": "input",
+					"top": 167,
+					"left": 40,
+					"width": 376,
+					"height": 232,
+					"dataSource": "Example2Code_WithoutNewObject",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"styledText": true,
+					"allowFontColorPicker": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Example2_NewObject Version": {
+					"type": "input",
+					"top": 168,
+					"left": 484,
+					"width": 396,
+					"height": 232,
+					"dataSource": "Example2Code_WithNewObject",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"styledText": true,
+					"allowFontColorPicker": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text11": {
+					"type": "text",
+					"top": 142,
+					"left": 42,
+					"width": 184,
+					"height": 15,
+					"stroke": "#FF0000",
+					"fontWeight": "bold",
+					"text": "Code without New object"
+				},
+				"Text12": {
+					"type": "text",
+					"top": 142,
+					"left": 487,
+					"width": 139,
+					"height": 15,
+					"stroke": "#008000",
+					"fontWeight": "bold",
+					"text": "Code with New object"
+				},
+				"Text13": {
+					"type": "text",
+					"top": 67,
+					"left": 46,
+					"width": 843,
+					"height": 64,
+					"fontFamily": "Segoe UI",
+					"fontSize": 24,
+					"text": "These two codes initialize an object in an object attribute"
+				},
+				"Text14": {
+					"type": "text",
+					"top": 414,
+					"left": 42,
+					"width": 831,
+					"height": 32,
+					"fontFamily": "Segoe UI",
+					"fontSize": 24,
+					"text": "As you can see below, these two codes provide the same result"
+				},
+				"Text15": {
+					"type": "text",
+					"top": 581,
+					"left": 436,
+					"width": 32,
+					"height": 54,
+					"stroke": "#00FF00",
+					"fontFamily": "Segoe UI",
+					"fontSize": 40,
+					"fontWeight": "bold",
+					"text": "="
+				}
+			}
+		},
+		{
+			"objects": {
+				"Example3_Previous version_result": {
+					"type": "input",
+					"top": 492,
+					"left": 40,
+					"width": 376,
+					"height": 232,
+					"dataSource": "Example3Result_WithoutNewObject",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Example3_NewObject Version_result": {
+					"type": "input",
+					"top": 492,
+					"left": 484,
+					"width": 396,
+					"height": 232,
+					"dataSource": "Example3Result_WithNewObject",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text16": {
+					"type": "text",
+					"top": 464,
+					"left": 42,
+					"width": 213,
+					"height": 15,
+					"stroke": "#FF0000",
+					"fontWeight": "bold",
+					"text": "Result of code without New object"
+				},
+				"Text17": {
+					"type": "text",
+					"top": 464,
+					"left": 487,
+					"width": 202,
+					"height": 15,
+					"stroke": "#008000",
+					"fontWeight": "bold",
+					"text": "Result of code with New object"
+				},
+				"Text18": {
+					"type": "text",
+					"top": 503,
+					"left": 22,
+					"width": 34,
+					"height": 15
+				},
+				"Example3_Previous version": {
+					"type": "input",
+					"top": 167,
+					"left": 40,
+					"width": 376,
+					"height": 232,
+					"dataSource": "Example3Code_WithoutNewObject",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"styledText": true,
+					"allowFontColorPicker": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Example3_NewObject Version": {
+					"type": "input",
+					"top": 168,
+					"left": 484,
+					"width": 396,
+					"height": 232,
+					"dataSource": "Example3Code_WithNewObject",
+					"focusable": false,
+					"fill": "transparent",
+					"enterable": false,
+					"styledText": true,
+					"allowFontColorPicker": true,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text19": {
+					"type": "text",
+					"top": 142,
+					"left": 42,
+					"width": 172,
+					"height": 15,
+					"stroke": "#FF0000",
+					"fontWeight": "bold",
+					"text": "Code without New object"
+				},
+				"Text20": {
+					"type": "text",
+					"top": 142,
+					"left": 487,
+					"width": 139,
+					"height": 15,
+					"stroke": "#008000",
+					"fontWeight": "bold",
+					"text": "Code with New object"
+				},
+				"Text21": {
+					"type": "text",
+					"top": 67,
+					"left": 46,
+					"width": 843,
+					"height": 64,
+					"fontFamily": "Segoe UI",
+					"fontSize": 24,
+					"text": "These two codes initialize an object in a loop and add it in an object array"
+				},
+				"Text22": {
+					"type": "text",
+					"top": 414,
+					"left": 42,
+					"width": 831,
+					"height": 32,
+					"fontFamily": "Segoe UI",
+					"fontSize": 24,
+					"text": "As you can see below, these two codes provide the same result"
+				},
+				"Text23": {
+					"type": "text",
+					"top": 581,
+					"left": 436,
+					"width": 32,
+					"height": 54,
+					"stroke": "#00FF00",
+					"fontFamily": "Segoe UI",
+					"fontSize": 40,
+					"fontWeight": "bold",
+					"text": "="
+				}
+			}
+		}
+	],
+	"geometryStamp": 158,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}
