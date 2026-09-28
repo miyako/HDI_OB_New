@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/Forms/HDI2/form.4DForm" source-language="en" target-language="en">
+	<body>
+	  <trans-unit id="HDI2_TabInfo" resname="HDI2_TabInfo">
+		<source>Info</source>
+		<target>Info</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabExample1" resname="HDI2_TabExample1">
+		<source>Example 1</source>
+		<target>Example 1</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabExample2" resname="HDI2_TabExample2">
+		<source>Example 2</source>
+		<target>Example 2</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_TabExample3" resname="HDI2_TabExample3">
+		<source>Example 3</source>
+		<target>Example 3</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_ResultWithoutNewObject" resname="HDI2_ResultWithoutNewObject">
+		<source>Result of code without New object</source>
+		<target>Result of code without New object</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_ResultWithNewObject" resname="HDI2_ResultWithNewObject">
+		<source>Result of code with New object</source>
+		<target>Result of code with New object</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_CodeWithoutNewObject" resname="HDI2_CodeWithoutNewObject">
+		<source>Code without New object</source>
+		<target>Code without New object</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_CodeWithNewObject" resname="HDI2_CodeWithNewObject">
+		<source>Code with New object</source>
+		<target>Code with New object</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Example1Title" resname="HDI2_Example1Title">
+		<source>These two codes initialize an empty object</source>
+		<target>These two codes initialize an empty object</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Example2Title" resname="HDI2_Example2Title">
+		<source>These two codes initialize an object in an object attribute</source>
+		<target>These two codes initialize an object in an object attribute</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Example3Title" resname="HDI2_Example3Title">
+		<source>These two codes initialize an object in a loop and add it in an object array</source>
+		<target>These two codes initialize an object in a loop and add it in an object array</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_SameResult" resname="HDI2_SameResult">
+		<source>As you can see below, these two codes provide the same result</source>
+		<target>As you can see below, these two codes provide the same result</target>
+	  </trans-unit>
+	  <trans-unit id="HDI2_Equals" resname="HDI2_Equals">
+		<source>=</source>
+		<target>=</target>
+	  </trans-unit>
+	</body>
+  </file>
+</xliff>

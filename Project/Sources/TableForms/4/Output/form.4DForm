@@ -1,0 +1,258 @@
+{
+	"destination": "listScreen",
+	"rightMargin": 16,
+	"bottomMargin": 10,
+	"markerHeader": 24,
+	"markerBody": 46,
+	"markerBreak": 51,
+	"markerFooter": 51,
+	"events": [
+		"onLoad",
+		"onValidate",
+		"onClick",
+		"onHeader",
+		"onPrintingBreak",
+		"onPrintingFooter",
+		"onDisplayDetail",
+		"onOutsideCall",
+		"onDoubleClick",
+		"onDrop",
+		"onMenuSelect",
+		"onPluginArea",
+		"onDataChange",
+		"onDragOver",
+		"onPrintingDetail",
+		"onOpenDetail",
+		"onCloseDetail",
+		"onTimer",
+		"onAfterKeystroke",
+		"onLoadRecord",
+		"onAfterEdit",
+		"onBeginDragOver",
+		"onBoundVariableChange",
+		"onPageChange"
+	],
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "841pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Rectangle8": {
+					"type": "rectangle",
+					"top": 0,
+					"left": 0,
+					"width": 585,
+					"height": 48,
+					"fill": "transparent"
+				},
+				"Picture4": {
+					"type": "picture",
+					"top": 2,
+					"left": 2,
+					"width": 581,
+					"height": 22,
+					"pictureFormat": "scaled",
+					"picture": "Images/Picture4.png"
+				},
+				"S1_Text": {
+					"type": "text",
+					"top": 7,
+					"left": 15,
+					"width": 48,
+					"height": 15,
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"text": ":xliff:SAMPLES_LblPK"
+				},
+				"S2_Text": {
+					"type": "text",
+					"top": 7,
+					"left": 75,
+					"width": 245,
+					"height": 15,
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"text": ":xliff:SAMPLES_LblTextPrevious"
+				},
+				"S3_Text": {
+					"type": "text",
+					"top": 7,
+					"left": 332,
+					"width": 245,
+					"height": 15,
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"text": ":xliff:SAMPLES_LblText16R3"
+				},
+				"Rectangle5": {
+					"type": "rectangle",
+					"top": 24,
+					"left": 2,
+					"width": 581,
+					"height": 24,
+					"stroke": "transparent"
+				},
+				"S1_Field": {
+					"type": "input",
+					"top": 28,
+					"left": 15,
+					"width": 48,
+					"height": 16,
+					"dataSource": "[SAMPLES:4]PK:1",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S2_Field": {
+					"type": "input",
+					"top": 28,
+					"left": 75,
+					"width": 245,
+					"height": 16,
+					"dataSource": "[SAMPLES:4]Text_Previous:2",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S3_Field": {
+					"type": "input",
+					"top": 28,
+					"left": 332,
+					"width": 245,
+					"height": 16,
+					"dataSource": "[SAMPLES:4]Text_16R3:3",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"fill": "#FFFFFF",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"S1_Field1": {
+					"type": "input",
+					"top": 27,
+					"left": 612,
+					"width": 48,
+					"height": 16,
+					"dataSource": "[SAMPLES:4]ID:5",
+					"dataSourceTypeHint": "integer",
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "none",
+					"events": [
+						"onLoad",
+						"onValidate",
+						"onClick",
+						"onHeader",
+						"onPrintingBreak",
+						"onPrintingFooter",
+						"onDisplayDetail",
+						"onDataChange",
+						"onPrintingDetail"
+					]
+				},
+				"Line6": {
+					"type": "line",
+					"top": 2,
+					"left": 326,
+					"height": 46,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter2": {
+					"type": "splitter",
+					"top": 0,
+					"left": 325,
+					"width": 3,
+					"height": 50,
+					"splitterMode": "move",
+					"borderStyle": "none",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line7": {
+					"type": "line",
+					"top": 2,
+					"left": 69,
+					"height": 46,
+					"stroke": "#A8A8A8"
+				},
+				"Splitter3": {
+					"type": "splitter",
+					"top": 0,
+					"left": 68,
+					"width": 3,
+					"height": 50,
+					"splitterMode": "move",
+					"borderStyle": "none",
+					"events": [
+						"onClick"
+					]
+				},
+				"S1_Text1": {
+					"type": "text",
+					"top": 6,
+					"left": 612,
+					"width": 48,
+					"height": 15,
+					"fontFamily": "Segoe UI",
+					"fontSize": 12,
+					"text": ":xliff:SAMPLES_LblID"
+				}
+			}
+		}
+	]
+}

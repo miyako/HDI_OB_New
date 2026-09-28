@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="HDI_OB_New" uuid="89D3E6F80FA9EA408A0E251A8569EC50" collation_locale="fr">
+	<schema name="DEFAULT_SCHEMA"/>
+	<table name="SAMPLES" uuid="E113E764F44BBB4BB274CEEB9B9C2516" id="4">
+		<field name="PK" uuid="CD3A0D7719A03645B1AFF9E0A54529CC" type="4" unique="true" autosequence="true" not_null="true" id="1"/>
+		<field name="Text_Previous" uuid="77FD14E1A03A95409A72CFA9ED6625FD" type="10" never_null="true" id="2"/>
+		<field name="Text_16R3" uuid="F5EDA41AF9BB09469F20629DBCDA2534" type="10" never_null="true" id="3"/>
+		<field name="ID" uuid="F9CE6B3FD38A1E4FA6509761223EA2B5" type="4" never_null="true" id="5"/>
+		<primary_key field_name="PK" field_uuid="CD3A0D7719A03645B1AFF9E0A54529CC"/>
+		<table_extra input_form="Input" output_form="Output"/>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="CA6CC7122A1BA54A8262A30DFA1D1952" type="7">
+		<field_ref uuid="CD3A0D7719A03645B1AFF9E0A54529CC" name="PK">
+			<table_ref uuid="E113E764F44BBB4BB274CEEB9B9C2516" name="SAMPLES"/>
+		</field_ref>
+	</index>
+	<base_extra data_file_path=":HowDoI.4DD" package_name="HDI_OB_New" structure_file_name="HowDoI">
+		<journal_file journal_file_enabled="false"/>
+	</base_extra>
+</base>

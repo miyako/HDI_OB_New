@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file datatype="plaintext" original="Sources/TableForms/4" source-language="en" target-language="ja">
+	<body>
+	  <trans-unit id="SAMPLES_Title" resname="SAMPLES_Title">
+		<source>SAMPLES</source>
+		<target>SAMPLES</target>
+	  </trans-unit>
+	  <trans-unit id="SAMPLES_LblPK" resname="SAMPLES_LblPK">
+		<source>PK</source>
+		<target>PK</target>
+	  </trans-unit>
+	  <trans-unit id="SAMPLES_LblID" resname="SAMPLES_LblID">
+		<source>ID : </source>
+		<target>ID : </target>
+	  </trans-unit>
+	  <trans-unit id="SAMPLES_LblTextPrevious" resname="SAMPLES_LblTextPrevious">
+		<source>Text_Previous : </source>
+		<target>Text_Previous : </target>
+	  </trans-unit>
+	  <trans-unit id="SAMPLES_LblText16R3" resname="SAMPLES_LblText16R3">
+		<source>Text_16R3 : </source>
+		<target>Text_16R3 : </target>
+	  </trans-unit>
+	</body>
+  </file>
+</xliff>

@@ -1,0 +1,45 @@
+{
+	"Examples": {
+		"groups": [
+			"Examples with OB New",
+			"Examples without OB New"
+		],
+		"methods": [
+			"CreateMessage"
+		]
+	},
+	"Examples with OB New": {
+		"methods": [
+			"Example1WithNewObject",
+			"Example2WithNewObject",
+			"Example3WithNewObject"
+		]
+	},
+	"Examples without OB New": {
+		"methods": [
+			"Example1WithoutNewObject",
+			"Example2WithoutNewObject",
+			"Example3WithoutNewObject"
+		]
+	},
+	"FORMS": {
+		"forms": [
+			"HDI",
+			"HDI2"
+		]
+	},
+	"Init": {
+		"methods": [
+			"00_Start",
+			"InitExamples",
+			"InitInfo"
+		]
+	},
+	"METHODS": {
+		"groups": [
+			"Examples",
+			"Init"
+		]
+	},
+	"trash": {}
+}
