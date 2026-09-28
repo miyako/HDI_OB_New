@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 // ----------------------------------------------------
 // Nom utilisateur (OS) : fmainguene
 // Date et heure : 13/03/17, 11:05:29
@@ -8,7 +8,8 @@
 //  Syntax to initialize an object in a loop with New object
 // ----------------------------------------------------
 
-C_LONGINT:C283($vCounter)
+#DECLARE->$result : Text
+var $vCounter : Integer
 ARRAY OBJECT:C1221($refs; 0)
 
 For ($vCounter; 1; 5)
@@ -17,4 +18,4 @@ For ($vCounter; 1; 5)
 End for 
 
 //return the array stringified
-$0:=JSON Stringify array:C1228($refs; *)
+$result:=JSON Stringify array:C1228($refs; *)

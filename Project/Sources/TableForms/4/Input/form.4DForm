@@ -51,7 +51,7 @@
 					"stroke": "#000000",
 					"fontFamily": "Segoe UI",
 					"fontSize": 18,
-					"text": "SAMPLES"
+					"text": ":xliff:SAMPLES_Title"
 				},
 				"vRecNum": {
 					"type": "input",
@@ -228,7 +228,7 @@
 					"height": 15,
 					"fontFamily": "Segoe UI",
 					"fontSize": 12,
-					"text": "ID : "
+					"text": ":xliff:SAMPLES_LblID"
 				},
 				"Text9": {
 					"type": "text",
@@ -238,7 +238,7 @@
 					"height": 15,
 					"fontFamily": "Segoe UI",
 					"fontSize": 12,
-					"text": "Text_Previous : "
+					"text": ":xliff:SAMPLES_LblTextPrevious"
 				},
 				"Text10": {
 					"type": "text",
@@ -248,7 +248,7 @@
 					"height": 15,
 					"fontFamily": "Segoe UI",
 					"fontSize": 12,
-					"text": "Text_16R3 : "
+					"text": ":xliff:SAMPLES_LblText16R3"
 				},
 				"ID": {
 					"type": "input",

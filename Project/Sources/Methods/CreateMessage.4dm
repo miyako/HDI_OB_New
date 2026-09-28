@@ -8,13 +8,9 @@
 // Add/update Message property to an object past as parameter (by reference)
 // Paramètres
 // Object to update
-// Message (C_TEXT)
+// Message (Text)
 // ----------------------------------------------------
 
-C_OBJECT:C1216($obj; $1)
-C_TEXT:C284($message; $2)
-
-$obj:=$1
-$message:=$2
+#DECLARE($obj : Object; $message : Text)
 
 OB SET:C1220($obj; "Message"; $message)

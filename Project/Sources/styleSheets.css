@@ -1,0 +1,43 @@
+/* Cross-platform dark mode support. Colours here adapt automatically
+   to the active system colour scheme via prefers-color-scheme media
+   queries; see .github/instructions/css.instructions.md. */
+
+.HDI {
+	stroke: automatic;
+}
+
+@media (prefers-color-scheme: light) {
+	.hdi-warning {
+		stroke: #FF4D00;
+	}
+
+	.hdi-old {
+		stroke: #FF0000;
+	}
+
+	.hdi-new {
+		stroke: #008000;
+	}
+
+	.hdi-equals {
+		stroke: #00FF00;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.hdi-warning {
+		stroke: #FF8A50;
+	}
+
+	.hdi-old {
+		stroke: #FF6B6B;
+	}
+
+	.hdi-new {
+		stroke: #4CAF50;
+	}
+
+	.hdi-equals {
+		stroke: #66FF66;
+	}
+}

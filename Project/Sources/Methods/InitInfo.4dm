@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 // ----------------------------------------------------
 // Nom utilisateur (OS) : fmainguene
 // Date et heure : 13/03/17, 11:12:04
@@ -8,7 +8,9 @@
 // Creation of Info Text
 // ----------------------------------------------------
 
-C_TEXT:C284(vartitle)
+var vartitle : Text
+var $json : Collection
+var $SAMPLES : Object
 
 If (Get database localization:C1009(Current localization:K5:22)="ja")
 	$json:=JSON Parse:C1218(Folder:C1567(fk resources folder:K87:11).file("SAMPLES-ja.json").getText(); Is collection:K8:32)

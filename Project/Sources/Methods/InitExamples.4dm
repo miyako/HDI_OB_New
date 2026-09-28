@@ -1,4 +1,4 @@
-//%attributes = {}
+//%attributes = {"invisible":true}
 // ----------------------------------------------------
 // Nom utilisateur (OS) : fmainguene
 // Date et heure : 13/03/17, 11:12:04
@@ -8,6 +8,8 @@
 // Creation of Examples displaying
 // ----------------------------------------------------
 
+var $json : Collection
+var $SAMPLES : Object
 
 // Result Example1
 Example1Result_WithoutNewObject:=JSON Stringify:C1217(Example1WithoutNewObject; *)
@@ -43,4 +45,3 @@ $SAMPLES:=$json.query("ID == :1"; 3).first()
 
 Example3Code_WithoutNewObject:=$SAMPLES.Text_Previous
 Example3Code_WithNewObject:=$SAMPLES.Text_16R3
-

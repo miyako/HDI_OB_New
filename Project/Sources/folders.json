@@ -32,8 +32,7 @@
 		"methods": [
 			"00_Start",
 			"InitExamples",
-			"InitInfo",
-			"m_Quit"
+			"InitInfo"
 		]
 	},
 	"METHODS": {

@@ -31,10 +31,10 @@
 					"dataSource": "Tab Control",
 					"dataSourceTypeHint": "arrayText",
 					"labels": [
-						"Info",
-						"Example 1",
-						"Example 2",
-						"Example 3"
+						":xliff:HDI2_TabInfo",
+						":xliff:HDI2_TabExample1",
+						":xliff:HDI2_TabExample2",
+						":xliff:HDI2_TabExample3"
 					],
 					"action": "gotoPage",
 					"events": [
@@ -106,9 +106,9 @@
 					"left": 42,
 					"width": 205,
 					"height": 15,
-					"stroke": "#FF0000",
 					"fontWeight": "bold",
-					"text": "Result of code without New object"
+					"text": ":xliff:HDI2_ResultWithoutNewObject",
+					"class": "hdi-old"
 				},
 				"Text1": {
 					"type": "text",
@@ -116,9 +116,9 @@
 					"left": 487,
 					"width": 202,
 					"height": 15,
-					"stroke": "#008000",
 					"fontWeight": "bold",
-					"text": "Result of code with New object"
+					"text": ":xliff:HDI2_ResultWithNewObject",
+					"class": "hdi-new"
 				},
 				"Text2": {
 					"type": "text",
@@ -171,9 +171,9 @@
 					"left": 42,
 					"width": 170,
 					"height": 15,
-					"stroke": "#FF0000",
 					"fontWeight": "bold",
-					"text": "Code without New object"
+					"text": ":xliff:HDI2_CodeWithoutNewObject",
+					"class": "hdi-old"
 				},
 				"Text4": {
 					"type": "text",
@@ -181,9 +181,9 @@
 					"left": 487,
 					"width": 139,
 					"height": 15,
-					"stroke": "#008000",
 					"fontWeight": "bold",
-					"text": "Code with New object"
+					"text": ":xliff:HDI2_CodeWithNewObject",
+					"class": "hdi-new"
 				},
 				"Text5": {
 					"type": "text",
@@ -193,7 +193,7 @@
 					"height": 64,
 					"fontFamily": "Segoe UI",
 					"fontSize": 24,
-					"text": "These two codes initialize an empty object"
+					"text": ":xliff:HDI2_Example1Title"
 				},
 				"Text6": {
 					"type": "text",
@@ -203,7 +203,7 @@
 					"height": 32,
 					"fontFamily": "Segoe UI",
 					"fontSize": 24,
-					"text": "As you can see below, these two codes provide the same result"
+					"text": ":xliff:HDI2_SameResult"
 				},
 				"Text8": {
 					"type": "text",
@@ -211,11 +211,11 @@
 					"left": 436,
 					"width": 32,
 					"height": 54,
-					"stroke": "#00FF00",
 					"fontFamily": "Segoe UI",
 					"fontSize": 40,
 					"fontWeight": "bold",
-					"text": "="
+					"text": ":xliff:HDI2_Equals",
+					"class": "hdi-equals"
 				}
 			}
 		},
@@ -259,9 +259,9 @@
 					"left": 42,
 					"width": 201,
 					"height": 15,
-					"stroke": "#FF0000",
 					"fontWeight": "bold",
-					"text": "Result of code without New object"
+					"text": ":xliff:HDI2_ResultWithoutNewObject",
+					"class": "hdi-old"
 				},
 				"Text9": {
 					"type": "text",
@@ -269,9 +269,9 @@
 					"left": 487,
 					"width": 202,
 					"height": 15,
-					"stroke": "#008000",
 					"fontWeight": "bold",
-					"text": "Result of code with New object"
+					"text": ":xliff:HDI2_ResultWithNewObject",
+					"class": "hdi-new"
 				},
 				"Text10": {
 					"type": "text",
@@ -324,9 +324,9 @@
 					"left": 42,
 					"width": 184,
 					"height": 15,
-					"stroke": "#FF0000",
 					"fontWeight": "bold",
-					"text": "Code without New object"
+					"text": ":xliff:HDI2_CodeWithoutNewObject",
+					"class": "hdi-old"
 				},
 				"Text12": {
 					"type": "text",
@@ -334,9 +334,9 @@
 					"left": 487,
 					"width": 139,
 					"height": 15,
-					"stroke": "#008000",
 					"fontWeight": "bold",
-					"text": "Code with New object"
+					"text": ":xliff:HDI2_CodeWithNewObject",
+					"class": "hdi-new"
 				},
 				"Text13": {
 					"type": "text",
@@ -346,7 +346,7 @@
 					"height": 64,
 					"fontFamily": "Segoe UI",
 					"fontSize": 24,
-					"text": "These two codes initialize an object in an object attribute"
+					"text": ":xliff:HDI2_Example2Title"
 				},
 				"Text14": {
 					"type": "text",
@@ -356,7 +356,7 @@
 					"height": 32,
 					"fontFamily": "Segoe UI",
 					"fontSize": 24,
-					"text": "As you can see below, these two codes provide the same result"
+					"text": ":xliff:HDI2_SameResult"
 				},
 				"Text15": {
 					"type": "text",
@@ -364,11 +364,11 @@
 					"left": 436,
 					"width": 32,
 					"height": 54,
-					"stroke": "#00FF00",
 					"fontFamily": "Segoe UI",
 					"fontSize": 40,
 					"fontWeight": "bold",
-					"text": "="
+					"text": ":xliff:HDI2_Equals",
+					"class": "hdi-equals"
 				}
 			}
 		},
@@ -412,9 +412,9 @@
 					"left": 42,
 					"width": 213,
 					"height": 15,
-					"stroke": "#FF0000",
 					"fontWeight": "bold",
-					"text": "Result of code without New object"
+					"text": ":xliff:HDI2_ResultWithoutNewObject",
+					"class": "hdi-old"
 				},
 				"Text17": {
 					"type": "text",
@@ -422,9 +422,9 @@
 					"left": 487,
 					"width": 202,
 					"height": 15,
-					"stroke": "#008000",
 					"fontWeight": "bold",
-					"text": "Result of code with New object"
+					"text": ":xliff:HDI2_ResultWithNewObject",
+					"class": "hdi-new"
 				},
 				"Text18": {
 					"type": "text",
@@ -477,9 +477,9 @@
 					"left": 42,
 					"width": 172,
 					"height": 15,
-					"stroke": "#FF0000",
 					"fontWeight": "bold",
-					"text": "Code without New object"
+					"text": ":xliff:HDI2_CodeWithoutNewObject",
+					"class": "hdi-old"
 				},
 				"Text20": {
 					"type": "text",
@@ -487,9 +487,9 @@
 					"left": 487,
 					"width": 139,
 					"height": 15,
-					"stroke": "#008000",
 					"fontWeight": "bold",
-					"text": "Code with New object"
+					"text": ":xliff:HDI2_CodeWithNewObject",
+					"class": "hdi-new"
 				},
 				"Text21": {
 					"type": "text",
@@ -499,7 +499,7 @@
 					"height": 64,
 					"fontFamily": "Segoe UI",
 					"fontSize": 24,
-					"text": "These two codes initialize an object in a loop and add it in an object array"
+					"text": ":xliff:HDI2_Example3Title"
 				},
 				"Text22": {
 					"type": "text",
@@ -509,7 +509,7 @@
 					"height": 32,
 					"fontFamily": "Segoe UI",
 					"fontSize": 24,
-					"text": "As you can see below, these two codes provide the same result"
+					"text": ":xliff:HDI2_SameResult"
 				},
 				"Text23": {
 					"type": "text",
@@ -517,11 +517,11 @@
 					"left": 436,
 					"width": 32,
 					"height": 54,
-					"stroke": "#00FF00",
 					"fontFamily": "Segoe UI",
 					"fontSize": 40,
 					"fontWeight": "bold",
-					"text": "="
+					"text": ":xliff:HDI2_Equals",
+					"class": "hdi-equals"
 				}
 			}
 		}
