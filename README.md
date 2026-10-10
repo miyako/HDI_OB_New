@@ -45,9 +45,9 @@ Each pair follows the same shape: `Example{N}WithoutNewObject.4dm` reproduces th
 
 Converted from the 4D v16 R3 binary `.4DB` to the `.4DProject` architecture, then modernised in a single pass.
 
-| Branch | Description | Instructions |
-|--------|-------------|--------------|
-| [`miyako-upgraded-eureka`](../../tree/miyako-upgraded-eureka) | Full modernisation: XLIFF localisation, `var`/`#DECLARE` syntax, standard menu actions, method visibility, a rebuilt startup dialog (window reuse, `CALL WORKER`, `BtnDemo` object method), and dark mode/Liquid Glass CSS. | [localisation.instructions.md](.github/instructions/localisation.instructions.md), [variable.declarations.instructions.md](.github/instructions/variable.declarations.instructions.md), [menu.instructions.md](.github/instructions/menu.instructions.md), [method.visibility.instructions.md](.github/instructions/method.visibility.instructions.md), [startup.instructions.md](.github/instructions/startup.instructions.md), [css.instructions.md](.github/instructions/css.instructions.md), [tahoe.css.instructions.md](.github/instructions/tahoe.css.instructions.md) |
+| Branch | Description | Guidance |
+|--------|-------------|----------|
+| [`miyako-upgraded-eureka`](../../tree/miyako-upgraded-eureka) | Full modernisation: XLIFF localisation, `var`/`#DECLARE` syntax, standard menu actions, method visibility, a rebuilt startup dialog (window reuse, `CALL WORKER`, `BtnDemo` object method), and dark mode/Liquid Glass CSS. | [`4dlocalise`](https://github.com/miyako/skills/tree/main/4d-skills/skills/4dlocalise), [`4dmodernise`](https://github.com/miyako/skills/tree/main/4d-skills/skills/4dmodernise), [`4dproject`](https://github.com/miyako/skills/tree/main/4d-skills/skills/4dproject), [`4dmethods`](https://github.com/miyako/skills/tree/main/4d-skills/skills/4dmethods), [`4dstartup`](https://github.com/miyako/skills/tree/main/4d-skills/skills/4dstartup), [hdi.startup.instructions.md](.github/instructions/hdi.startup.instructions.md), [`4dcss`](https://github.com/miyako/skills/tree/main/4d-skills/skills/4dcss) |
 
 ## References
 
